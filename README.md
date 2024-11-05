@@ -33,7 +33,7 @@ Clone the repository:
 
 bash
 Copier le code
-git clone https://github.com/your-username/GPIO-Driver.git
+git clone (https://github.com/kloud69omri/pilote-pour-GPIOs.git)
 cd GPIO-Driver
 Build the project:
 
@@ -45,7 +45,7 @@ Refer to the examples/gpio_example.c file to understand basic usage.
 Example Usage:
 
 To initialize a GPIO pin, activate the clock, configure it as output, and set it high:
-c
+
 Copier le code
 GPIO_Init(GPIOA);               // Initialize GPIOA to default values
 GPIO_EnableClock(GPIOA);        // Enable clock for GPIOA
