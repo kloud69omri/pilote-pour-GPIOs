@@ -1,11 +1,8 @@
 /**
   ******************************************************************************
   * @file    Lab-Libraries/gpio.c
-  * @author  CSF Team
-  * @mail    formation@csf.tn
-  * @Tel     (+216)92.039.433
   * @version V1.0.0
-  * @date    28-04-2024
+  * @date    02-11-2024
   *****************************************************************************
 /* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
@@ -133,7 +130,7 @@ void GPIO_Init(unsigned int * gpio_x, char Mode, char typeOutput, short int pin)
 {
   unsigned int mask = (0x3<<(pin*2)); 
   
-  /* forcer les 2 bits d configuration du mode à 0*/
+  /* forcer les 2 bits d configuration du mode Ã  0*/
   (*(gpio_x + MODER)) &= ~mask ;
   
   /* Appliquer les "1" du mode dans les bits de configuration du pin choisi */
@@ -248,5 +245,5 @@ void GPIO_Write(unsigned int * gpio_x, unsigned short int PortVal)
 
 
 
-/******************* (C) COPYRIGHT 2024 CSF *****END OF FILE*******************/
+/******************* *****END OF FILE*******************/
 
