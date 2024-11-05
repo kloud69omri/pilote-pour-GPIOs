@@ -1,11 +1,8 @@
 /**
   ******************************************************************************
   * @file    Lab-Libraries/gpio.h 
-  * @author  CSF Team
-  * @mail    formation@csf.tn
-  * @Tel     (+216)92.039.433
   * @version V1.0.0
-  * @date    23-04-2024
+  * @date    02-11-2024
   *****************************************************************************
 
 /* Includes ------------------------------------------------------------------*/
@@ -36,7 +33,7 @@
 # define    AFRH     0x24/4
 
 
-/* les différents mode de fonctinement */
+/* les diffÃ©rents mode de fonctinement */
 # define   MODE_input   0X00
 # define   MODE_OUTPUT  0X01
 # define   MODE_AF      0X02
@@ -105,4 +102,4 @@ unsigned short int GPIO_ReadInputData(unsigned int * gpio_x);
 void GPIO_WriteBit(unsigned int * gpio_x, unsigned short int GPIO_Pin, char BitVal);
 void GPIO_Write(unsigned int * gpio_x, unsigned short int PortVal);
 
-/******************* (C) COPYRIGHT 2019 CSF *****END OF FILE*******************/
+/******************* *****END OF FILE*******************/
